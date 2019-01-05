@@ -79,7 +79,7 @@ func (r runner) Match(query string) ([]matchOut, *dbus.Error) {
 		
 		matches[i].ID = projects[i].WebURL
 		matches[i].Text = projects[i].Name
-		matches[i].IconName = "document-open"
+		matches[i].IconName = "internet-web-browser"
 		matches[i].Type = 100
 		matches[i].Relevance = relevance
 	}
