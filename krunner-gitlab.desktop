@@ -1,1 +1,16 @@
-/home/shochdoerfer/.local/share/kservices5/krunner-gitlab.desktop
+[Desktop Entry]
+Name=GitLab
+Comment=GitLab KRunner
+X-KDE-ServiceTypes=Plasma/Runner
+Type=Service
+Icon=internet-web-browser
+X-KDE-PluginInfo-Author=Stephan Hochdörfer
+X-KDE-PluginInfo-Email=S.Hochdoerfer@bitExpert.de
+X-KDE-PluginInfo-Name=krunner-gitlab
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-License=Apache-2.0
+X-KDE-PluginInfo-EnabledByDefault=true
+X-Plasma-API=DBus
+X-Plasma-DBusRunner-Service=de.hochdoerfer.gitlab
+X-Plasma-DBusRunner-Path=/krunner
+
